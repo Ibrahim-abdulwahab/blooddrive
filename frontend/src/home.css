@@ -1,0 +1,83 @@
+/* HomePage.css */
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 0 1 auto;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.header h2 {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.content {
+    background-color: white;
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
+.request-section,
+.signup-section,
+.login-section {
+    margin-bottom: 20px;
+}
+
+/* Footer - Black background */
+.footer {
+    background-color: black;
+    flex: 0 1 auto;
+    height: 50px;
+}
+
+.large-button {
+    background-color: yellow;
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+    width: 50vw;
+    border-style: dashed;
+    border-width: thick;
+    cursor: pointer;
+    margin-top: 0px;
+    transition: background-color 0.3s;
+}
+
+.large-button:hover {
+    background-color: #f4e04d;
+    /* Slightly darker yellow on hover */
+}
+
+.homeButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 140px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p {
+    font-size: 1.2rem;
+    /* Set font size */
+    color: #333;
+    /* Set text color */
+}
+
