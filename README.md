@@ -4,7 +4,9 @@ Donors can sign up to this website ,but must allow access to their location and 
 Donors can log in so that they can update their location.
 
 To run the code, open a terminal type
-```npm start```
+```
+npm start
+```
 and open another terminal 
 ```
 cd frontend
