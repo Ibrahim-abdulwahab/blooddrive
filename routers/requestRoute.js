@@ -6,7 +6,7 @@ const Organization = require('../models/organizationSchema');
 router.post("/create",requestController.createRequest)
 
 
-// Route to fetch all hospitals
+// Route to fetch all hospitals.
 router.get('/hospitals', async (req, res) => {
   try {
     const organizations = await Organization.find({}, 'name'); // Only get name

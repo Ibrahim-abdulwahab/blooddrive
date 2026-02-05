@@ -4,7 +4,7 @@ const calculateAge = require('../utils/calculateAge');
 const { sendEmail } = require('../utils/emailService');
 const { Coordinate } = require("../models/coordinatesSchema");
 const mongoose = require("mongoose");
-
+//
 exports.signup = async (req,res)=>{
     try{
         if(!validator.isEmail(req.body["email"])){

@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-//embedded object
+//embedded object.
 const coordinatesSchema = new Schema({
   type: { type: String, enum: ['Point'], required: true },
   coordinates: {
