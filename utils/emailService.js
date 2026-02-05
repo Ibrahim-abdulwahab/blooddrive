@@ -15,7 +15,7 @@ const sendEmail = (to, subject, text) => {
     from: process.env.EMAIL_USER,  // The sender's email
     to: to,                        // Recipient email
     subject: subject,              // Email subject
-    text: text,                    // Email body
+    text: text,                    // Email bod
   };
 
   return transporter.sendMail(mailOptions);

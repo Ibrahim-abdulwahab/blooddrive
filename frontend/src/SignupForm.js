@@ -13,10 +13,10 @@ const SignupForm = () => {
     password: '',
     passwordConfirm: '',
     doB: '', // Date of Birth
-    gender: '', // Gender (could be dropdown or radio buttons)
-    bloodType: '', // Blood type
+    gender: '', 
+    bloodType: '', 
     checkDiseases:'',
-    historyOfDiseases: '', // Medical history
+    historyOfDiseases: '', 
     address: '',
     latitude: null,
     longitude: null,
